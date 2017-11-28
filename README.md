@@ -1,7 +1,9 @@
 # metro-cs1-comprehensive
 Exam problems in beginning and intermediate Java programming. Part of the comprehensive review and exam for CS 1 course, MSUD, Fall 2017.
 
-## Part I
+## `Geometric`
+
+### Part I
 
 1. Fork this repository.
 2. Clone it and open it as a new project in IntelliJ _from existing sources_.
@@ -9,7 +11,7 @@ Exam problems in beginning and intermediate Java programming. Part of the compre
 4. Run the code.
 5. Answer the questions on Canvas.
 
-## Part II
+### Part II
 
 1. In `main` there is commented out code for new shapes you will have to add.
 2. Follow the existing code to create 4 new concrete (not `abstract`) classes:
@@ -57,3 +59,5 @@ Process finished with exit code 0
 ```
 5. The actual numbers don't matter. Feel free to set your own points and lengths around which to jitter.
 6. Answer the questions on Canvas.
+7. When your code is running fine, commit all your changes to the remote repository on Github. (Don't forget to `git add` each new file. IntelliJ will ask you, so you just accept.)
+8. Submit the URL of your repository in the question on Canvas.
