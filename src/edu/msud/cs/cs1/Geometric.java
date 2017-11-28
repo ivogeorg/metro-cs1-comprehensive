@@ -21,6 +21,7 @@ public abstract class Geometric {
         shapes.add(this);
     }
 
+    // abstract method
     public abstract double getArea();
 
     public static ArrayList<Geometric> getShapes() {
