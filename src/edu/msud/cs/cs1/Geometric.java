@@ -77,7 +77,10 @@ public abstract class Geometric {
 //                    2.8 + Math.pow(-1, Math.round(Math.random())) * JITTER,
 //                    1.9 + Math.pow(-1, Math.round(Math.random())) * JITTER);
 //        }
+
         System.out.println("Number of shapes: " + Geometric.getNumShapes());
+
+        // for-each loop
         for (Geometric shape: Geometric.getShapes())
             System.out.println(shape + " (Area: " + shape.getArea() + ")");
     }
