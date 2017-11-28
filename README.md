@@ -55,3 +55,5 @@ Rhombus: x=2.595000 y=-1.605000 side=2.895000 theta=1.805000 (Area: 8.1522184252
 Process finished with exit code 0
 
 ```
+5. The actual numbers don't matter. Feel free to set your own points and lengths around which to jitter.
+6. Answer the questions on Canvas.
