@@ -7,6 +7,7 @@ public abstract class Geometric {
 
     private static ArrayList<Geometric> shapes;
 
+    // static initialization block
     static {
         shapes = new ArrayList<>(INIT_NUM_GEOMS);
     }
