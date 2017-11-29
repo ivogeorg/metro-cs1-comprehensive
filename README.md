@@ -13,14 +13,14 @@ Exam problems in beginning and intermediate Java programming. Part of the compre
 
 ### Part II
 
-1. In `main` there is commented out code for new shapes you will have to add.
+1. In `main` there is commented out code for new shape classes for you to add.
 2. Follow the existing code to create 4 new concrete (not `abstract`) classes:
     * `Parallelogram` is a subclass of `Geometric` with two sides `a` and `b`, and angle `theta` between them, with area A = a * b * sin(theta). Use `Math.sin()`.
-    * `Rectangle` is a subclass of `Parallelogram` and has an angle of 90 degrees (or pi/2 radians). Use `Math.PI/2.0`.
+    * `Rectangle` is a subclass of `Parallelogram` and has an angle of 90 degrees (or pi/2 radians). Use `Math.PI/2`.
     * `Square` is a subclass of `Rectangle` and has equal sides.
     * `Rhombus` is a subclass of `Parallelogram` and has equal sides.
 3. Look at the commented out code to see the required constructor for each class. The constructor should call the superclass constructor with `super()` and only then do any subclass-specific initialization, if any.
-4. To help you with implementing each new class's `toString`, the output after the code is uncommented should look as follows:
+4. To help you with implementing each new class's `toString`, the output of `main()` after the new shape classes are added and the code is uncommented should look as follows:
 ```text
 Number of shapes: 30
 Elipsoid: x=1.905000 y=3.095000 semiMaj=1.905000 semiMin=0.905000 (Area: 2.5730429231063803)
