@@ -15,7 +15,7 @@ Exam problems in beginning and intermediate Java programming. Part of the compre
 
 1. In `main` there is commented out code for new shape classes for you to add.
 2. Follow the existing code to create 4 new concrete (not `abstract`) classes:
-    * `Parallelogram` is a subclass of `Geometric` with two sides `a` and `b`, and angle `theta` between them, with area A = a * b * sin(theta). Use `Math.sin()`.
+    * `Parallelogram` is a subclass of `Geometric` with two sides `a` and `b`, and angle `theta` between them, with area A = a * b * sin(theta). Use `Math.sin()`. Note that the `Math` trigonometric functions take parameters in units of _radian_.
     * `Rectangle` is a subclass of `Parallelogram` and has an angle of 90 degrees (or pi/2 radians). Use `Math.PI/2`.
     * `Square` is a subclass of `Rectangle` and has equal sides.
     * `Rhombus` is a subclass of `Parallelogram` and has equal sides.
